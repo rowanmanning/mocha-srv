@@ -1,6 +1,6 @@
 {
     "name": "mocha-srv",
-    "version": "0.0.0",
+    "version": "0.1.0",
 
     "description": "Bundle node tests and serve them up for running in-browser",
     "keywords": [ "mocha", "tdd", "test", "unit" ],
