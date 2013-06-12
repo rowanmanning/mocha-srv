@@ -5,6 +5,9 @@ mocha-srv
 
 mocha-srv runs a simple HTTP server, serving up your [Mocha][mocha] tests. This allows you to run the same suite of tests on the command line (with Node.js) and in the browser.
 
+**Current Version:** *0.0.0*  
+**Node Support:** *0.8, 0.10*
+
 
 Getting Started
 ---------------
