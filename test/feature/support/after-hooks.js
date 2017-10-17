@@ -1,11 +1,7 @@
-'use strict';
+var {defineSupportCode} = require('cucumber');
 
-// After each scenario
-module.exports = function () {
-
-    // Reset the world
-    this.After(function (callback) {
-        this.reset(callback);
+defineSupportCode(function({After}) {
+    After(function () {
+      return this.reset();
     });
-
-};
+});

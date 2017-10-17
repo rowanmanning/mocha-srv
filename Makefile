@@ -29,6 +29,4 @@ test-unit:
 # Run feature tests
 test-feature:
 	@echo "Running features..."
-	@./node_modules/.bin/cucumber-js \
-		--format pretty \
-		./test/feature
+	@./node_modules/.bin/cucumber-js ./test/feature

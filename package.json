@@ -1,39 +1,40 @@
 {
     "name": "mocha-srv",
     "version": "0.1.0",
-
     "description": "Bundle node tests and serve them up for running in-browser",
-    "keywords": [ "mocha", "tdd", "test", "unit" ],
+    "keywords": [
+        "mocha",
+        "tdd",
+        "test",
+        "unit"
+    ],
     "author": "Rowan Manning (http://rowanmanning.co.uk/)",
-
     "repository": {
         "type": "git",
         "url": "https://github.com/rowanmanning/mocha-srv.git"
     },
     "homepage": "https://github.com/rowanmanning/mocha-srv",
     "bugs": "https://github.com/rowanmanning/mocha-srv/issues",
-
     "engines": {
         "node": ">=0.8.0"
     },
     "dependencies": {
-        "async": "~0.2",
-        "browserify": "~2.18",
-        "colors": "~0.6",
-        "commander": "~1.1",
-        "express": "~3.2",
-        "glob": "~3.2",
-        "mocha": "~1.10"
+        "async": "~2.5.0",
+        "browserify": "~14.4.0",
+        "colors": "~1.1.2",
+        "commander": "~2.11.0",
+        "express": "~4.16.2",
+        "glob": "~7.1.2",
+        "mocha": "~4.0.1"
     },
     "devDependencies": {
-        "cucumber": "~0.3",
-        "jshint": "~2.1",
-        "mockery": "~1.4",
-        "proclaim": "~1.2",
-        "request": "~2.21",
-        "sinon": "~1.7"
+        "cucumber": "~3.0.5",
+        "jshint": "~2.9.5",
+        "mockery": "~2.1.0",
+        "proclaim": "~3.5.0",
+        "request": "~2.83.0",
+        "sinon": "~4.0.1"
     },
-
     "main": "./lib/mocha-srv.js",
     "bin": {
         "mocha-srv": "./bin/mocha-srv"
